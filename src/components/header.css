@@ -1,0 +1,103 @@
+
+.body {
+
+    background-image: url(/public/img_bagir.webp);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center bottom;
+}
+
+.header {
+
+    height: 700px;
+}
+.container-fluid{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.collapse{
+margin-left: 300px;
+
+}
+
+.navA {
+    background: black;
+    height: 40px;
+}
+
+ .navbar {
+   z-index: 1000;
+
+} 
+
+.ul {
+
+    background-size: 150px;
+    background-position: right;
+    background-repeat: no-repeat;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row-reverse;
+    margin: 0 auto;
+}
+
+.li {
+
+    padding: 15px;
+    color: white;
+}
+
+.logo {
+    display: flex;
+    justify-content: end;
+margin-left:150px ;
+}
+
+@media(max-width: 574px){
+    .ul{
+        display: flex;
+        justify-content: start;
+    }
+}
+@media (max-width:720px) {
+    .body {
+        background-image: url(/public/smartfonImg.jpg);
+    }
+
+    
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding: 90px;
+        color: rgb(37, 9, 9);
+}
+
+}
+@media (min-width: 768px) and (max-width:1023px) {
+    .body {
+        background-image: url(/public/smartfonImg.jpg);
+    }
+
+    /* .li {
+        display: none;
+      
+    } */
+    .logo {
+        display: flex;
+        justify-content: center;
+        padding: 90px;
+        color: rgb(37, 9, 9);
+}
+}
+
+.icons{
+    padding: 15px;
+    margin-top:-55px ;
+margin-left: 30px;
+}
+i{
+    margin-left:30px;
+  
+}
